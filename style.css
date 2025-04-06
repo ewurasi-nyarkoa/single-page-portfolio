@@ -1,0 +1,46 @@
+:root{
+    /* colors */
+--lavender-purple: #755cde;
+--soft-orange: #f6a560;
+--blush-pink: #f39e9e;
+--coral-red: #eb7565;
+--aqua-blue: #61c4b7;
+--deep-violet: #552049;
+--jet-black: #030303;
+--warm-ash: #7a746e;
+--peach-cream: #fff7f0;
+/* typography */    
+--font-family: 'Plus Jakarta Sans', sans-serif;
+--heading-l-size: 56px;
+--heading-l-line-height: 70px;
+--heading-bold-weight: 700; /* Bold */
+--heading-m-size: 40px;
+--heading-m-line-height: 51px;
+--heading-s-size: 32px;
+--heading-s-line-height: 40px;
+--body-m-size: 18px;
+--body-m-line-height: 28px;
+--body-medium-weight: 500; 
+--button-text-size:16px;
+--button-text-line-height:28px;
+
+/* buttons */
+--button-width:228px;
+--button-height:56px;
+--button-redius:28px;
+--arrowbutton-width:64px;
+--arrowbutton-height:64px;
+--arrowicon-width:14.81px;
+--arrowicon-height:16px;
+--arrow-icon-x: 982.81px;
+--arrow-icon-y: 157px;
+}
+body{
+    background-color: var(--peach-cream);
+}
+
+/* .arrow-icon {
+    position: absolute;
+    left: var(--arrow-icon-x);
+    top: var(--arrow-icon-y);
+  } */
