@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
 :root{
     /* colors */
 --lavender-purple: #755cde;
@@ -40,7 +44,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: var(--font-primary);
+    font-family: var(--font-family);
   }
 
 body{
@@ -91,8 +95,9 @@ body{
   }
   
   .consult-btn:hover {
-    background-color: var(--lavender-purple);
+    background-color: var(--soft-orange);
   }
+
   .hero{
     position: absolute;
     left: 334px;
@@ -119,7 +124,59 @@ body{
     color: var(--warm-ash);
   }
 
+  .about-section{
+    position: absolute;
+    left:165px;
+    top:894;
+    width: 1110px;
+    height: 445px;
+  }
 
+.about-section img{
+    position: absolute;
+    left: 165px;
+    top: 894px;
+    width: 445px;
+    height: 445px;
+}
+.about-text{
+    position: absolute;
+    left: 735px;
+    top: 964px;
+    width: 540px;
+    height: 306px;
+}
+.about-text h2{
+    width: 540px;
+    height: 100px;
+    font-size: var(--heading-m-size);
+    line-height: var(--heading-m-line-height);
+    font-weight: var(--heading-bold-weight);
+    color: var(--jet-black);
+}
+.about-text p{
+    width: 540px;
+    height: 84px;
+    font-size: var(--body-m-size);
+    font-weight: var(--body-medium-weight);
+    line-height: var(--body-m-line-height);
+    color: var(--warm-ash);
+}
+.consult-btn1{
+    width: var(--button-width);
+    height: var(--button-height);
+    background-color: var(--coral-red);
+    border-radius: var(--button-redius);
+    border: none; 
+    color: var(--peach-cream);
+    font-weight: var(--heading-bold-weight);
+    font-size: var(--button-text-size);
+    line-height: var(--button-text-line-height);
+}
+
+.consult-btn1:hover{
+    background-color: var(--soft-orange);
+}
 /* .arrow-icon {
     position: absolute;
     left: var(--arrow-icon-x);
