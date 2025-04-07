@@ -307,3 +307,52 @@ body{
 .arrow-button :hover{
   background-color:var(--lavender-purple) ;
 }
+.contact{
+  margin-top: 88px;
+  width: 1110px;
+  height: 320px;
+  background-color: var(--jet-black);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contact-text{
+  width: 540px;
+  height: 159px;
+  margin-left: 40px;
+}
+.contact-text h2{
+  font-size: var(--heading-m-size);
+  line-height: var(--heading-m-line-height);
+  color: var(--peach-cream);
+
+}
+.contact-text p {
+  margin-top: 25px;
+  color: var(--peach-cream);
+  font-size: var(--body-m-size);
+  font-weight: var(--body-medium-weight);
+  line-height: var(--body-m-line-height);
+}
+.consult-btn2{
+  margin-top: 32px;
+  margin-right: 40px;
+  width: var(--button-width);
+  height: var(--button-height);
+  background-color: var(--coral-red);
+  border-radius: var(--button-redius);
+  border: none; 
+  color: var(--peach-cream);
+  font-weight: var(--heading-bold-weight);
+  font-size: var(--button-text-size);
+  line-height: var(--button-text-line-height);
+}
+
+.consult-btn2:hover{
+  background-color: var(--soft-orange);
+}
+.footer{
+  margin-top: 56px;
+}
