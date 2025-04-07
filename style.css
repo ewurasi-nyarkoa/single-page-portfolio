@@ -95,7 +95,7 @@ body{
   }
   
   .consult-btn:hover {
-    background-color: var(--soft-orange);
+    background-color: var(--lavender-purple);
   }
 
   .hero{
@@ -133,7 +133,6 @@ body{
 
 .service-card{
   position: relative;
-  /* border: 1px solid var(--warm-ash); */
   padding: 24px;
   border-radius: 8px;
   display: flex;
@@ -249,4 +248,62 @@ body{
 
 .consult-btn1:hover{
   background-color: var(--soft-orange);
+}
+.works-section {
+  margin-top: 88px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.works-section h2{
+    height: 40px;
+    font-size: var(--heading-s-size);
+    line-height: var(--heading-s-line-height);
+}
+
+.works-container {
+  width: 100%;
+  overflow: hidden;
+  margin-top: 56px;
+}
+
+.works-img {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  /* scroll-behavior: smooth; */
+  /* padding-bottom: 10px; */
+
+}
+
+.works-img::-webkit-scrollbar {
+  display: none;
+}
+
+.works-container img {
+  width: 540px;
+  height: 360px;
+  flex-shrink: 0;
+}
+.arrows{
+  margin-top: 56px;
+  display: flex;
+  gap: 15px;
+}
+.arrow-button{
+  width: var(--arrowbutton-width);
+  height: var(--arrowbutton-height);
+  background-color: var(--jet-black);
+  border: none;
+  border-radius: 9999px;
+}
+.arrows img{
+  color: #ffffff;
+}
+.arrow-button :hover{
+  background-color:var(--lavender-purple) ;
 }
