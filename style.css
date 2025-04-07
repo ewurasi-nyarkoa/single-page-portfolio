@@ -35,9 +35,65 @@
 --arrow-icon-x: 982.81px;
 --arrow-icon-y: 157px;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-primary);
+  }
+
 body{
     background-color: var(--peach-cream);
+    display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      flex-direction: column;
+      text-align: center;
 }
+
+.navbar{
+     width: 1111px ;
+      height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+    padding-top: 10px;
+
+
+}
+.logo{
+    width: 64px;
+    height: 64px;
+    background-color: var(--jet-black);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    width: 32px ;
+    height: 32px ;
+}
+
+.consult-btn {
+    width: var(--button-width);
+    height: var(--button-height);
+    background-color: var(--jet-black);
+    border-radius: var(--button-redius);
+    border: none; 
+    color: var(--peach-cream);
+    font-weight: var(--heading-bold-weight);
+    font-size: var(--button-text-size);
+    line-height: var(--button-text-line-height);
+  }
+  
+  .consult-btn:hover {
+    background-color: var(--lavender-purple);
+  }
+
 
 /* .arrow-icon {
     position: absolute;
