@@ -93,6 +93,31 @@ body{
   .consult-btn:hover {
     background-color: var(--lavender-purple);
   }
+  .hero{
+    position: absolute;
+    left: 334px;
+    top: 164px;
+    width: 752px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+  }
+  .hero-text h1{
+    width: 751px;
+    height: 71px;
+    font-size: var(--heading-l-size);
+    line-height: var(--heading-l-line-height);
+    font-weight: var(--heading-bold-weight);
+    color: var(--jet-black);
+  }
+  .hero-text p{
+    width: 730px;
+    height: 56px;
+    font-size: var(--body-m-size);
+    font-weight: var(--body-medium-weight);
+    line-height: var(--body-m-line-height);
+    color: var(--warm-ash);
+  }
 
 
 /* .arrow-icon {
