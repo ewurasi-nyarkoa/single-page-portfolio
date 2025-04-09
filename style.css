@@ -151,8 +151,7 @@
 .illustrations-1{
   width: 343px;
   height: 364px;
-  /* grid-row: span 2; */
-}
+} 
 
 .illustrations-6,.illustrations-5{
   width: 159px;
@@ -478,7 +477,7 @@
 .illustrations-2,.illustrations-3{
   width: 354px;
   height: 158px;
-} 
+}  
 .services .purple{
   background-color: var(--lavender-purple);
 }
@@ -621,6 +620,7 @@
   height: 159px;
   margin-left: 40px;
 }
+
 .contact-text h2{
   font-size: var(--heading-m-size);
   line-height: var(--heading-m-line-height);
@@ -629,6 +629,9 @@
 }
 .contact-text p {
   margin-top: 25px;
+  width: 540px;
+  height: 84px;
+  text-align: left;
   color: var(--peach-cream);
   font-size: var(--body-m-size);
   font-weight: var(--body-medium-weight);
@@ -659,7 +662,7 @@
 
 
 
- @media (min-width: 769px) and (max-width: 1024px){
+ @media (min-width: 768px) and (max-width: 1024px){
   body{
     background-color: var(--peach-cream);
     display: flex;
@@ -693,16 +696,27 @@
  justify-content: center;
 }  
 
-body.hero{
+.hero{
   margin-top: 64px;
   width: 690px;
   height: 138px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  /* background-color: #eb7565 !important; */
 } 
+.hero-text h1{
+  width: 540px;
+  height: 40px;
+  font-size: var(--heading-s-size);
+  font-weight: var(--heading-bold-weight);
+  line-height: auto;
+  color: var(--jet-black);
+ }
 .hero-text p{
-  width: 389px;
-  height: 364px;
+  width: 573px;
+  height: 56px;
+  text-align: center;
 } 
  .services{
   margin-top: 64px;
@@ -710,6 +724,33 @@ body.hero{
   grid-template-columns: repeat(2, 1fr);
   gap: 24px;
   width: 690px ;
+  height: 570px;
+ 
+}
+
+.illustrations-1{
+  width: 354px;
+  height: 364px;
+  grid-row: span 2;
+}
+
+.illustrations-6,.illustrations-5{
+  width: 164px;
+  height: 182px;
+}
+
+.illustrations-4{
+  width: 354px;
+  height: 182px;
+}
+
+.illustrations-2,.illustrations-3{
+  width: 354px;
+  height: 158px;
+} 
+.group{
+  display: flex;
+  gap: 24px;
 }
 .about-section{
   display: flex;
@@ -746,6 +787,10 @@ body.hero{
   align-items: center;
   justify-content: center;
 
+}
+.contact-container{
+  width:540px;
+  height: 232px;
 }
 
 .footer{
